@@ -64,12 +64,13 @@ button:hover{
     flex-direction: column;
  }
  div#logo{
-    width: 15%;
+    width: 100%;
     display: flex;
     gap: 15px;
+    justify-content: end;
  }
 .logo{
-    width: 27%;
+    width: 5%;
 }
 .logo:hover{
     cursor: pointer;
@@ -96,8 +97,13 @@ button:hover{
         align-items: center;
     }
     div#logo{
-        width: 35%;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        width: 100%;
         justify-content: center;
         align-items: center;
+    }
+    .logo{
+        width: 35px;
     }
 }
