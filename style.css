@@ -75,7 +75,7 @@ button:hover{
 .logo:hover{
     cursor: pointer;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     body{
         background-image: url(images/bg-mobile.svg);
         width: 100%;
@@ -90,7 +90,7 @@ button:hover{
         flex-direction: column;
      }
     .image{
-        max-width: 100%;
+        width: 100%;
     }
     .div3{
         text-align: center;
